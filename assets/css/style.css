@@ -1,0 +1,250 @@
+/* ---  abstracts css start  --- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@font-face {
+  font-family: "FontName";
+  src: url("FileName.eot");
+}
+.mini-title {
+  font-size: 25px;
+  color: #fd0217;
+  text-transform: uppercase;
+}
+@media (max-width: 1199px) {
+  .mini-title {
+    font-size: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .mini-title {
+    font-size: 16px;
+  }
+}
+
+.section-title {
+  font-size: 85px;
+  color: #010101;
+  text-transform: uppercase;
+}
+@media (max-width: 1199px) {
+  .section-title {
+    font-size: 55px;
+  }
+}
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 35px;
+  }
+}
+
+/* --- end of abstracts css  --- */
+/* ---  base css start  --- */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1700px;
+}
+
+.section-padding-1 {
+  padding: 100px 0;
+}
+@media (max-width: 1199px) {
+  .section-padding-1 {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 767px) {
+  .section-padding-1 {
+    padding: 40px 0;
+  }
+}
+
+/* --- end of base css  --- */
+/* ---  components css start  --- */
+.d-card {
+  background: #fff;
+}
+.d-card .text {
+  padding: 35px;
+}
+.d-card .text .tagss {
+  font-size: 30px;
+  color: #fd0217;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.d-card .text .tagss span {
+  color: #817c7c;
+}
+.d-card .text .title {
+  font-size: 40px;
+  color: #000;
+  font-weight: 700;
+}
+@media (max-width: 1199px) {
+  .d-card .text {
+    padding: 10px;
+  }
+  .d-card .text .tagss {
+    font-size: 20px;
+  }
+  .d-card .text .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .d-card .text {
+    padding: 10px;
+  }
+  .d-card .text .tagss {
+    font-size: 16px;
+  }
+  .d-card .text .title {
+    font-size: 25px;
+  }
+}
+
+/* --- end of components css  --- */
+/* ---  layouts css start  --- */
+.header .navbar .navbar-toggler {
+  width: 70px;
+}
+.header .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.header .navbar .navbar-brand {
+  max-width: 400px;
+}
+@media (max-width: 1399px) {
+  .header .navbar .navbar-brand {
+    width: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .header .navbar .navbar-brand {
+    width: 200px;
+  }
+}
+.header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #030202;
+  font-weight: 500;
+  font-size: 20px;
+}
+.header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active {
+  color: #fff;
+  background: #fd0217;
+}
+.header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #fff;
+  background: #fd0217;
+}
+@media (max-width: 991px) {
+  .header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+  }
+}
+.header .navbar .navbar-collapse .navbar-nav .nav-item .vvr {
+  display: inline-block;
+  height: 20px;
+  width: 2px;
+  background: #030202;
+  margin: 12px;
+}
+@media (max-width: 1399px) {
+  .header .navbar .navbar-collapse .navbar-nav .nav-item .vvr {
+    background: transparent;
+    margin: 3px;
+    width: 0;
+  }
+}
+@media (max-width: 1199px) {
+  .header .navbar .navbar-collapse .navbar-nav .nav-item .vvr {
+    display: none;
+  }
+}
+
+.footer {
+  padding: 50px 0;
+  color: #fff;
+}
+.footer .footer-links a {
+  color: #fff;
+  margin: 0 5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-bottom: 4px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer .footer-links a:hover {
+  color: #fd0217;
+}
+@media (max-width: 1399px) {
+  .footer .footer-links a {
+    font-size: 18px;
+  }
+}
+.footer .footer-links .vvr {
+  display: inline-block;
+  background: #fff;
+  width: 1px;
+  height: 15px;
+  margin: 0 5px;
+}
+@media (max-width: 767px) {
+  .footer .footer-links .vvr {
+    display: none;
+  }
+}
+.footer .copyright {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+@media (max-width: 767px) {
+  .footer .copyright {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+}
+.footer .social-link {
+  padding: 5px;
+}
+.footer .social-link:hover {
+  padding: 5px;
+  background: #fd0217;
+}
+
+/* --- end of layouts css  --- *//*# sourceMappingURL=style.css.map */

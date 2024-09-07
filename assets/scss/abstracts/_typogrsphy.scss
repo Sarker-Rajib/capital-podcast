@@ -1,0 +1,27 @@
+.mini-title {
+    font-size: 25px;
+    color: $color-red;
+    text-transform: uppercase;
+
+    @media(max-width:1199px) {
+        font-size: 22px;
+    }
+
+    @media(max-width:767px) {
+        font-size: 16px;
+    }
+}
+
+.section-title {
+    font-size: 85px;
+    color: #010101;
+    text-transform: uppercase;
+
+    @media(max-width:1199px) {
+        font-size: 55px;
+    }
+
+    @media(max-width:767px) {
+        font-size: 35px;
+    }
+}

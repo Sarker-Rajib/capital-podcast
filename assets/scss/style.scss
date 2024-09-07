@@ -1,0 +1,23 @@
+/* ---  abstracts css start  --- */
+@import 'abstracts/fonts';
+@import 'abstracts/variables';
+@import 'abstracts/typogrsphy';
+/* --- end of abstracts css  --- */
+
+/* ---  base css start  --- */
+@import 'base/global';
+@import 'base/config';
+@import 'base/utility';
+/* --- end of base css  --- */
+
+/* ---  components css start  --- */
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/custom-inputs';
+@import 'components/forms';
+/* --- end of components css  --- */
+
+/* ---  layouts css start  --- */
+@import 'layouts/navbar';
+@import 'layouts/footer';
+/* --- end of layouts css  --- */
